@@ -69,10 +69,11 @@ public class Vista extends javax.swing.JFrame {
 
         etiquetaAgregarLista.setText("Ingresa un elemento:");
         panelAgregarLista.add(etiquetaAgregarLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 26, 230, 20));
-        panelAgregarLista.add(campoAgregarLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 230, -1));
+        panelAgregarLista.add(campoAgregarLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 240, -1));
 
+        btnAgregarLista.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnAgregarLista.setText("Agregar");
-        panelAgregarLista.add(btnAgregarLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
+        panelAgregarLista.add(btnAgregarLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 240, -1));
 
         getContentPane().add(panelAgregarLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 280, 150));
 
@@ -87,10 +88,11 @@ public class Vista extends javax.swing.JFrame {
                 campoRemoverListaActionPerformed(evt);
             }
         });
-        panelRemoverLista.add(campoRemoverLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 60, 240, -1));
+        panelRemoverLista.add(campoRemoverLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 240, -1));
 
+        btnRemoverLista.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnRemoverLista.setText("Remover");
-        panelRemoverLista.add(btnRemoverLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 100, 80, -1));
+        panelRemoverLista.add(btnRemoverLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 240, -1));
 
         getContentPane().add(panelRemoverLista, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, 280, 150));
 
